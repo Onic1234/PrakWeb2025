@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <h2><marquee>Free Registration</marquee></h2>
+    <form action="process.php" method="post" name="form" class="table1">
+      <table width="100%" border="0" align="center" cellpandding="0">
+        <tr>
+          <td class="td" width="15%">Nama</td>
+          <td width="2%">:</td>
+          <td width="83%"><input type="text" name="txtName" id="txtName" /></td>
+        </tr>
+        <tr>
+          <td class="td">Birth Date</td>
+          <td>:</td>
+          <td>
+            <input
+              type="text"
+              name="txtDate"
+              id="txtDate"
+              size="4"
+              maxlength="2"
+            />/
+            <input
+              type="text"
+              name="txtMonth"
+              id="txtMonth"
+              size="4"
+              maxlength="2"
+            />/
+            <input
+              type="text"
+              name="txtYear"
+              id="txtYear"
+              size="8"
+              maxlength="4"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="td">Alamat</td>
+          <td>&nbsp;</td>
+          <td>
+            <textarea
+              name="txtAddress"
+              id="txtAddress"
+              cols="40"
+              rows="2"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td class="td">City</td>
+          <td>:</td>
+          <td><input type="text" name="txtCity" id="txtCity" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>
+            <input type="submit" name="btnSend" id="btnSend" value="Send" />
+            <input
+              type="reset"
+              name="btnCancel"
+              id="btnCancel"
+              value="Cancel"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
