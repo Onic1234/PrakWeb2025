@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script language="javascript">
+        function add(){
+            valuea = document.myform.a.value;
+            valueb = document.myform.b.value;
+            add = parseInt(valuea) + parseInt(valueb);
+            document.myform.result.value = add;
+        }
+        function substract(){
+            valuea = document.myform.a.value;
+            valueb = document.myform.b.value;
+            substract = valuea-valueb;
+            document.myform.result.value = substract;
+        }
+        function multiply(){
+            valuea = document.myform.a.value;
+            valueb = document.myform.b.value;
+            multiply = valuea*valueb;
+            document.myform.result.value = multiply;
+        }
+        function divide(){
+            valuea = document.myform.a.value;
+            valueb = document.myform.b.value;
+            divide = valuea/valueb;
+            document.myform.result.value = divide;
+        }
+    </script>
+</head>
+<body>
+    <form action="" name="myform">
+        <h3>Simple Calculator</h3></br>
+        Value A = <input type="text" name="a" size="5"></br>
+        Value B = <input type="text" name="b" size="5"></br></br>
+        <input type="button" name="action" value="+" onclick="add()">
+        <input type="button" name="action" value="-" onclick="substract()">
+        <input type="button" name="action" value="*" onclick="multiply()">
+        <input type="button" name="action" value="/" onclick="divide()">
+        </br></br>
+        <b>Result = </br><input type="text" name="result" size="5"></b>
+    </form>
+</body>
+</html>

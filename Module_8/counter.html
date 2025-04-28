@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script>
+        function CountMax(){
+            var value,max;
+            max = 100
+            wert = max-
+            (document.form1.question.value.length);
+            if (value < 0){
+                alert ("Sorry, the maximum input limit is " + max + " characters!");
+                document.form1.question.value = document.form1.question.value.substring(0,max);
+                wert = max-
+                (document.form1.question.value.length);
+                document.form1.rv_counter.value = wert;
+            } else{
+                document.form1.rv_counter.value = max-
+                (document.form1.question.value.length);
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="" name="form1" method="post">
+        <textarea name="question" cols="60" rows="3" id="question" onfocus="CountMax();" onclick="CountMax();" onchange="CountMax();" onkeydown="CountMax();" onkeyup="CountMax;" wrap="virtual"></textarea>
+        <font face="Arial, Helvetica, sans-serif, Bookman Old Style, Comic Sans MS" size="2">sisa
+            <input type="text" name="rv_counter" size="3" maxlength="3" value="100" readonly>
+        </font>
+    </form>
+</body>
+</html>
