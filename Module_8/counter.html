@@ -6,15 +6,13 @@
     <title>Counter</title>
     <script>
         function CountMax(){
-            var value,max;
+            var wert,max;
             max = 100
-            wert = max-
-            (document.form1.question.value.length);
-            if (value < 0){
+            wert = max - (document.form1.question.value.length);
+            if (wert < 0){
                 alert ("Sorry, the maximum input limit is " + max + " characters!");
                 document.form1.question.value = document.form1.question.value.substring(0,max);
-                wert = max-
-                (document.form1.question.value.length);
+                wert = max - (document.form1.question.value.length);
                 document.form1.rv_counter.value = wert;
             } else{
                 document.form1.rv_counter.value = max-
@@ -25,7 +23,8 @@
 </head>
 <body>
     <form action="" name="form1" method="post">
-        <textarea name="question" cols="60" rows="3" id="question" onfocus="CountMax();" onclick="CountMax();" onchange="CountMax();" onkeydown="CountMax();" onkeyup="CountMax;" wrap="virtual"></textarea>
+        <textarea name="question" cols="60" rows="3" id="question" onfocus="CountMax();" onclick="CountMax();" onchange="CountMax();" 
+        onkeydown="CountMax();" onkeyup="CountMax;" wrap="virtual"></textarea>
         <font face="Arial, Helvetica, sans-serif, Bookman Old Style, Comic Sans MS" size="2">sisa
             <input type="text" name="rv_counter" size="3" maxlength="3" value="100" readonly>
         </font>
