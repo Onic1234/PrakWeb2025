@@ -1,0 +1,70 @@
+{
+    "StudentID": "L200234275",
+    "Name" : "Onic Agustino",
+    "semester": "Genap 2025/4",
+    "courses": [
+      {
+        "courseId": "MK001",
+        "courseName": "Pemrograman Web",
+        "credits": 3,
+        "schedule": {
+          "day": "Rabu",
+          "time": "08:00 - 10:00",
+          "room": "Lab RPL"
+        },
+        "lecturer": {
+          "name": "Gunawan",
+          "email": "gn3@ums.ac.id"
+        },
+        "materials": [
+          "HTML & CSS",
+          "JavaScript Dasar",
+          "Framework Frontend",
+          "Backend dengan Node.js",
+          "Database dan API"
+        ]
+      },
+      {
+        "courseId": "MK002",
+        "courseName": "Algoritma dan Struktur Data",
+        "credits": 3,
+        "schedule": {
+          "day": "Rabu",
+          "time": "10:00 - 12:00",
+          "room": "Ruang 304"
+        },
+        "lecturer": {
+          "name": "Endang",
+          "email": "endang@ums.com"
+        },
+        "materials": [
+          "Pengenalan Algoritma",
+          "Struktur Data Dasar",
+          "Sorting & Searching",
+          "Graf dan Tree",
+          "Analisis Kompleksitas"
+        ]
+      },
+      {
+        "courseId": "MK003",
+        "courseName": "Sistem Operasi",
+        "credits": 3,
+        "schedule": {
+          "day": "Jumat",
+          "time": "13:00 - 15:00",
+          "room": "Ruang 212"
+        },
+        "lecturer": {
+          "name": "Dedi Gunawan",
+          "email": "dg@ums.com"
+        },
+        "materials": [
+          "Konsep Dasar Sistem Operasi",
+          "Manajemen Proses",
+          "Manajemen Memori",
+          "Sistem File",
+          "Keamanan dan Jaringan"
+        ]
+      }
+    ]
+  }

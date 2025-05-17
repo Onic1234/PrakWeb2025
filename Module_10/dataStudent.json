@@ -1,0 +1,36 @@
+{"student" : [
+    {
+        "full name" : "Muhammad Fadil",
+        "address" : "Jln Independen No 18 Surakarta",
+        "prodi" : "informatics",
+        "age" : 20,
+        "pass" : false,
+        "subject" : [
+            "Website Programming",
+            "Programming Algorithm",
+            "Select Capita"
+        ],
+        "mark" : {
+            "Linear Algebra" : "AB",
+            "Logika Matematika" : "A"
+        }
+    },
+    {
+        "full name" : "Budi Setiawan",
+        "address" : "Jln Pusaka Jawa No 12 Boyolali",
+        "prodi" : "informatics",
+        "age" : 21,
+        "pass" : false,
+        "subject" : [
+            "Computer network",
+            "Database System",
+            "Thesis"
+        ],
+        "mark" : {
+            "Linear Algebra" : "A",
+            "Logika Matematika" : "A"
+        }
+    }
+]
+
+}
