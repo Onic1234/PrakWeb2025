@@ -7,6 +7,7 @@
       "Gender" : null,
       "age" : 19,
       "hobbies": ["reading", "gaming", "traveling"],
+      "work" : false,
       "profile": {
         "firstName": "John",
         "lastName": "Doe",
